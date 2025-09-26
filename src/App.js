@@ -10,35 +10,28 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const video = document.querySelector("video"); 
-    if (video) {
-      video.onloadeddata = () => {
-        setTimeout(() => setLoading(false), 1000);
-      };
-    } else {
-      // fallback: stop loading after 2s
-      const timer = setTimeout(() => setLoading(false), 2000);
-      return () => clearTimeout(timer);
-    }
+    const handleVideoLoaded = () => {
+      setTimeout(() => setLoading(false), 400);
+    };
+
+    document.addEventListener("videoLoaded", handleVideoLoaded);
+    return () => document.removeEventListener("videoLoaded", handleVideoLoaded);
   }, []);
 
   return (
     <>
-      {loading ? (
-        // Loading Screen
-        <div className="fixed inset-0 flex items-center justify-center bg-black text-white z-50">
+      {loading && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
           <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-indigo-500"></div>
         </div>
-      ) : (
-        <>
-          <Navbar />
-          <Home />
-          <Services />
-          <Project />
-          <Contact />
-          <Footer />
-        </>
       )}
+
+      <Navbar />
+      <Home />
+      <Services />
+      <Project />
+      <Contact />
+      <Footer />
     </>
   );
 }

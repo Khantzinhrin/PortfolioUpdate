@@ -14,6 +14,10 @@ export default function Home() {
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.playbackRate = 0.8;
+
+      videoRef.current.onloadeddata = () => {
+        document.dispatchEvent(new Event("videoLoaded"));
+      }
     }
   }, []);
 
