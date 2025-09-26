@@ -35,7 +35,6 @@ export default function NavBar() {
           </button>
         ))}
       </div>
-
       {/* Hamburger Button for Mobile */}
       <div className="md:hidden ml-auto">
         <button

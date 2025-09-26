@@ -10,37 +10,37 @@ export default function Project() {
       name: "Tic Tac Toe Game",
       desc: "Classic Tic Tac Toe game built with Java and old JFrame.",
       image: "/image/tictactoe.png",
-      link: "#"
+      link: "https://github.com/Khantzinhrin/TicTacToe"
     },
     {
       name: "Method Flow",
       desc: "A web app for creating, managing, and visualizing workflows using drag-and-drop. Built with PHP, MySQL, HTML, CSS, JS, and Tailwind CSS.",
       image: "/image/methodflow.png",
-      link: "#"
+      link: "https://github.com/TripponDaellam/PHP-Project"
     },
     {
       name: "Travelling Website",
       desc: "Responsive travel website built with HTML, Tailwind CSS, JS, PHP, and SQL. Modern design with interactive elements, still in progress.",
       image: "/image/travelling.png",
-      link: "#"
+      link: "https://github.com/Khantzinhrin/phpProject"
     },
     {
       name: "Portfolio Website",
       desc: "A personal portfolio website to showcase projects and skills, built with React and Tailwind CSS.",
       image: "/image/portfolio.png",
-      link: "#"
+      link: "https://github.com/Khantzinhrin/PortfolioUpdate"
     },
     {
         name:"Pac-Man Game",
         desc:"Using Java to build a classic",
         image:"/image/pac-man.jpg",
-        link:"#"
+        link:"https://github.com/Khantzinhrin/ClassicPacMan"
     },
     { 
         name:"Hotel Management System",
         desc:"A desktop application for managing hotel operations, including reservations, check-ins, and billing. Built with Java and MySQL.",
         image:"/image/hotelmanagement.jpg",
-        link:"#"
+        link:"https://github.com/Khantzinhrin/Hotel_Management_System"
     }
   ];
 
