@@ -33,13 +33,13 @@ export default function Project() {
     {
         name:"Pac-Man Game",
         desc:"Using Java to build a classic",
-        image:"/image/pacman.png",
+        image:"/image/pac-man.jpg",
         link:"#"
     },
     { 
         name:"Hotel Management System",
         desc:"A desktop application for managing hotel operations, including reservations, check-ins, and billing. Built with Java and MySQL.",
-        image:"/image/hotel.png",
+        image:"/image/hotelmanagement.jpg",
         link:"#"
     }
   ];
