@@ -68,7 +68,17 @@ export default function Home() {
           >
             See Projects
           </button>
+          <a href="/file/Khant Zin Hein.pdf"
+              download="Khant Zin Hein.pdf"
+           className="px-6 py-3 bg-gray-700 hover:bg-gray-900 
+                       text-white font-semibold rounded-full shadow-lg 
+                       transform hover:scale-105 transition-transform duration-300">
+            Download CV
+          </a>
         </div>
+        <p className="mt-4 text-sm text-gray-300 text-center max-w-md sm:max-w-lg md:max-w-2xl px-2 font-semibold">
+         Work with me to bring your ideas to life!
+        </p>
       </div>
     </section>
   );
