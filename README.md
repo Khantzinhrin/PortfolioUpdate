@@ -1,7 +1,7 @@
 🌟 Khant Zin Hein — Portfolio
 
 Welcome to my personal portfolio website!
-This project showcases my web development skills, personal projects, and achievements. It’s fully built using PHP, with a focus on clean design, performance, and simplicity.
+This project showcases my web development skills, personal projects, and achievements. It’s  built using React, with a focus on clean design, performance, and simplicity.
 
 🚀 About the Project
 
