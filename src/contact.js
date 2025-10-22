@@ -9,7 +9,7 @@ export default function Contact() {
     const message = e.target.message.value;
 
     // Open mail client with pre-filled subject and body
-    window.location.href = `mailto:heinkhantzin0.com?subject=Message from ${name}&body=${encodeURIComponent(
+    window.location.href = `mailto:heinkhantzin0@gmail.com?subject=Message from ${name}&body=${encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
   };
