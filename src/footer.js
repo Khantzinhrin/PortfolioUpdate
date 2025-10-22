@@ -18,7 +18,7 @@ export default function Footer() {
 
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/khant-zin-hein-0369a9380/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-purple-400 transition-colors"
