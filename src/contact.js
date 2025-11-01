@@ -13,7 +13,7 @@ export default function Contact() {
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     )}`;
   };
-
+  
   return React.createElement(
     "section",
     { id: "contact", className: "min-h-screen py-16 px-4 sm:px-6 md:px-12 bg-black text-white flex flex-col items-center justify-center" },

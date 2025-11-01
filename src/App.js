@@ -8,16 +8,13 @@ import Footer from "./footer";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const handleVideoLoaded = () => {
       setTimeout(() => setLoading(false), 400);
     };
-
     document.addEventListener("videoLoaded", handleVideoLoaded);
     return () => document.removeEventListener("videoLoaded", handleVideoLoaded);
   }, []);
-
   return (
     <>
       {loading && (
@@ -25,7 +22,6 @@ export default function App() {
           <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-indigo-500"></div>
         </div>
       )}
-
       <Navbar />
       <Home />
       <Services />
